@@ -1,0 +1,36 @@
+# yazi.toml
+[opener]
+play = [
+    { run = 'vlc "$@"', orphan = true, for = "unix", desc = "Play media" },
+]
+
+edit = [
+    { run = 'nvim "$@"', block = true, for = "unix", desc = "Edit in Neovim" },
+]
+
+image = [
+    { run = 'Swappy "$@"', orphan = true, for = "unix", desc = "Open image in Swappy" },
+]
+
+pdf = [
+    { run = 'firefox "$@"', orphan = true, for = "unix", desc = "Open PDF in Firefox" },
+]
+
+fallback = [
+    { run = 'firefox "$@"', orphan = true, for = "unix", desc = "Fallback to Firefox" },
+]
+
+[manager]
+ratio = [1,2,3]
+sort_by = "alphabetical"
+sort_sensitive = false
+linemode = "size"
+mouse_events = ["click", "scroll", "touch", "move", "drag"]
+
+[preview]
+wrap = "yes"
+tab_size = 2
+image_filter = "catmull-rom"
+image_delay = 50
+
+
