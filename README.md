@@ -7,10 +7,8 @@ Modified [Hyde](https://github.com/Hyde-project/hyde) Hyprland dotfiles combined
 - **cava/**
 - **dunst/**
 - **fastfetch/**
-- **hyde/**
 - **hypr/**
 - **kitty/**
-- **lazydocker/**
 - **rofi/**
 - **swaylock/**
 - **waybar/**
@@ -21,6 +19,7 @@ Modified [Hyde](https://github.com/Hyde-project/hyde) Hyprland dotfiles combined
 - **.vimrc**
 - **.zshrc**
 - **dolphinrc**
+- **[neovim](https://github.com/SamTheTechi/nvimConfig)**
 
 ---
 
