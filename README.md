@@ -1,3 +1,5 @@
+![banner](banner.jpg)
+
 # Dotfiles
 
 Modified [Hyde](https://github.com/Hyde-project/hyde) Hyprland dotfiles combined with my own custom configurations.
